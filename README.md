@@ -22,7 +22,7 @@ yarn add is-us-holiday-light
 ## Usage
 
 ```javascript
-const isUsHoliday = require('is-us-holiday-light');
+import { isUsHoliday } from 'is-us-holiday-light';
 
 const date = new Date('2023-07-04');
 console.log(isUsHoliday(date)); // true, because it's Independence Day
