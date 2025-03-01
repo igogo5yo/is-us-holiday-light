@@ -1,4 +1,4 @@
-# Is date an US holiday (lightweight)
+# Is date a US bank holiday (lightweight)
 
 [![NPM](https://img.shields.io/npm/v/is-us-holiday-light.svg "NPM package version")](https://www.npmjs.com/package/is-us-holiday-light)
 [![NPM](https://img.shields.io/npm/dt/is-us-holiday-light.svg "NPM package downloads")](https://www.npmjs.com/package/is-us-holiday-light)
@@ -31,15 +31,21 @@ console.log(isUsHoliday(date)); // true, because it's Independence Day
 ## Supported Holidays
 
 - New Year's Day
+- Independence Day
+- Veterans Day
+- Election Day
+- Christmas Eve
+- Christmas Day
+- Good Friday
+- Juneteenth
 - Martin Luther King Jr. Day
 - Presidents' Day
 - Memorial Day
-- Independence Day
 - Labor Day
 - Columbus Day
-- Veterans Day
 - Thanksgiving Day
-- Christmas Day
+- Day after Thanksgiving Day
+
 
 ## Contributing
 
