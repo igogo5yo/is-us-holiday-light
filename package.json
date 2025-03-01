@@ -1,0 +1,21 @@
+{
+  "name": "is-us-holiday-light",
+  "version": "1.0.0",
+  "description": "Lightweight library to check if a date is a US holiday",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "Ihor Skliar",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.1",
+    "vitest": "^3.0.7"
+  }
+}
