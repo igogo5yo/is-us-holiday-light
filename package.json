@@ -1,7 +1,8 @@
 {
   "name": "is-us-holiday-light",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight library to check if a date is a US holiday",
+  "keywords": "US, bank, holiday, typescript, ts, date",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
