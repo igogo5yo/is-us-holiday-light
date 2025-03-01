@@ -12,6 +12,6 @@
         "declaration": true,
         "sourceMap": true
     },
-    "include": ["lib/**/*", "isUSHoliday.spec.ts"],
-    "exclude": ["node_modules", "dist"]
+    "include": ["lib/**/*"],
+    "exclude": ["node_modules", "dist", "lib/**/*.spec.ts"]
 }

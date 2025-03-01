@@ -9,7 +9,6 @@ yarn-error.log*
 *.tscache
 *.ts
 *.tsx
-*.d.ts
 
 # Logs
 logs
