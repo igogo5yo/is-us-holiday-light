@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Lightweight library to check if a date is a US holiday",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igogo5yo/is-us-holiday-light.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "vitest"

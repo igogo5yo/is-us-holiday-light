@@ -47,3 +47,5 @@ jspm_packages/
 
 # Coverage directory used by tools like istanbul
 coverage/
+
+dist/
