@@ -12,6 +12,6 @@
         "declaration": true,
         "sourceMap": true
     },
-    "include": ["lib/index.ts"],
-    "exclude": ["node_modules", "dist", "lib/index.spec.ts"]
+    "include": ["./lib/index.ts"],
+    "exclude": ["node_modules", "dist", "./lib/index.spec.ts"]
 }
