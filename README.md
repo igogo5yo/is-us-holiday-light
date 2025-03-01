@@ -3,7 +3,7 @@
 [![NPM](https://img.shields.io/npm/v/is-us-holiday-light.svg "NPM package version")](https://www.npmjs.com/package/is-us-holiday-light)
 [![NPM](https://img.shields.io/npm/dt/is-us-holiday-light.svg "NPM package downloads")](https://www.npmjs.com/package/is-us-holiday-light)
 
-`is-us-holiday-light` is a lightweight JavaScript library to check if a given date is a US holiday.
+This is a lightweight JavaScript library to check if a given date is a US holiday.
 
 ## Installation
 
