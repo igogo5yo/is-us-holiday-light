@@ -1,4 +1,4 @@
-# is-us-holiday-light
+# Is date an US holiday (lightweight)
 
 [![NPM](https://img.shields.io/npm/v/is-us-holiday-light.svg "NPM package version")](https://www.npmjs.com/package/is-us-holiday-light)
 [![NPM](https://img.shields.io/npm/dt/is-us-holiday-light.svg "NPM package downloads")](https://www.npmjs.com/package/is-us-holiday-light)
