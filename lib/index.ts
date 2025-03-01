@@ -1,30 +1,38 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.isUSHoliday = isUSHoliday;
-const matchDay = (d, month, day, occurrence, isNextDay = false) => {
+const matchDay = (
+    d: Date,
+    month: number,
+    day: number,
+    occurrence: number,
+    isNextDay = false,
+) => {
     const date = new Date(d);
     if (isNextDay) {
         date.setDate(date.getDate() - 1);
     }
+
     if (date.getMonth() !== month - 1 || date.getDay() !== day) {
         return false;
     }
+
     if (occurrence > 0) {
         // check n-th occurrence
         return occurrence === Math.ceil(date.getDate() / 7);
     }
+
     // check last occurrence
     const dt = new Date(date);
     dt.setDate(date.getDate() + 7);
     return dt.getMonth() > date.getMonth();
 };
-const matchDate = (d, month, date) => {
+
+const matchDate = (d: Date, month: number, date: number) => {
     return d.getMonth() === month - 1 && d.getDate() === date;
 };
-function isUSHoliday(date) {
+
+export function isUSHoliday(date: Date) {
     return (
-    // New Year
-    matchDate(date, 1, 1) ||
+        // New Year
+        matchDate(date, 1, 1) ||
         // Independence Day
         matchDate(date, 7, 4) ||
         // Veterans Day
@@ -52,6 +60,6 @@ function isUSHoliday(date) {
         // Thanksgiving Day
         matchDay(date, 11, 4, 4) ||
         // Day after Thanksgiving Day
-        matchDay(date, 11, 4, 4, true));
+        matchDay(date, 11, 4, 4, true)
+    );
 }
-//# sourceMappingURL=index.js.map
